@@ -7,7 +7,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@lwc/synthetic-shadow": "^1.6.2",
     "@salesforce-ux/design-system": "^2.11.9",
+    "@salesforce/design-system-react": "^0.10.19",
     "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -16,10 +18,14 @@
     "http-errors": "~1.6.3",
     "mongoose": "^5.9.16",
     "morgan": "~1.9.1",
+    "nforce": "^1.12.2",
     "nodemon": "^2.0.4",
-    "passport": "^0.4.1"
+    "passport": "^0.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@salesforce/eslint-config-lwc": "^0.7.0",
     "dotenv": "^8.2.0",
     "locus": "^2.0.4"
   }

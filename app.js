@@ -4,7 +4,10 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
-const slds =require('@salesforce-ux/design-system');
+const react = require('react'); 
+const lwc= require('@lwc/synthetic-shadow');
+//const slds = require('@salesforce-ux/design-system');
+const sldsreact = require('@salesforce/design-system-react');
 
 const indexRouter = require('./routes/index');
 const posts = require('./routes/posts');
